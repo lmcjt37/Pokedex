@@ -164,24 +164,3 @@ struct PokemonType: IdentifiableDecodeHash {
     let evolutions: [PokemonEvolution]
     let locations: [PokemonLocation]
 }
-
-//--------
-
-//struct PokemonVersionNew: IdentifiableDecodeHash {
-//    var id = UUID()
-//    let name: String
-//    let versions: [PokemonLocationNew]
-//}
-//
-//struct PokemonGeneration: IdentifiableDecodeHash {
-//    var id = UUID()
-//    let name: String
-//    let versions: [PokemonVersionNew]
-//}
-//
-//struct PokemonLocationNew: IdentifiableDecodeHash {
-//    var id = UUID()
-//    let name: String
-//    let region: String
-//    let generations: [PokemonGeneration]
-//}

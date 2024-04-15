@@ -51,6 +51,7 @@
 		E08FAB912BC96BBA00604BE5 /* PokedexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FAB2A2BC969C500604BE5 /* PokedexTests.swift */; };
 		E08FAB922BC96BE500604BE5 /* PokedexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FAB272BC969C500604BE5 /* PokedexUITests.swift */; };
 		E08FAB932BC96BE900604BE5 /* PokedexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08FAB282BC969C500604BE5 /* PokedexUITestsLaunchTests.swift */; };
+		E08FAB9F2BCD7DD900604BE5 /* pikachu-running.gif in Resources */ = {isa = PBXBuildFile; fileRef = E08FAB9E2BCD7DD900604BE5 /* pikachu-running.gif */; };
 		E09E41412BAC42050052FAC1 /* WrappingHStack in Frameworks */ = {isa = PBXBuildFile; productRef = E09E41402BAC42050052FAC1 /* WrappingHStack */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +132,7 @@
 		E08FAB622BC969C500604BE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E08FAB632BC969C500604BE5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E08FAB642BC969C500604BE5 /* PokedexApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexApp.swift; sourceTree = "<group>"; };
+		E08FAB9E2BCD7DD900604BE5 /* pikachu-running.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pikachu-running.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +245,7 @@
 		E08FAB362BC969C500604BE5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E08FAB9E2BCD7DD900604BE5 /* pikachu-running.gif */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 			files = (
 				E08FAB8E2BC969C600604BE5 /* Launch Screen.storyboard in Resources */,
 				E08FAB6E2BC969C600604BE5 /* Preview Assets.xcassets in Resources */,
+				E08FAB9F2BCD7DD900604BE5 /* pikachu-running.gif in Resources */,
 				E08FAB8C2BC969C600604BE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
